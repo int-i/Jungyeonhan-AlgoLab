@@ -1,5 +1,5 @@
 li = [[int(i) for i in input().split()] for _ in range(9)]
-max=0
+max= 0
 x=0
 y=0
 for i in range(9):
