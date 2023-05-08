@@ -1,17 +1,11 @@
-#2525번
-A, B = map(int, input().split())
-C = int(input())
-
-hour = (B+C)//60
-min = (B+C)%60
-
-if(B + C >= 60):
-  if(A+hour >= 24):
-    A = A - 24
-  A = A + hour
-  print(A, min)
-
-else:
-  if(A >= 24):
-    A = A - 24
-  print(A, B+C)
+#10810번
+input()
+n = set(map(int, input().split()))
+print(n)
+input()
+m = list(map(int, input().split()))
+for i in m:
+    if i in n:
+        print(1, end=' ')
+    else:
+        print(0, end=' ')
