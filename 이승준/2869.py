@@ -1,4 +1,4 @@
-A,B,V =map(int,input().split())
+A,B,V=map(int,input().split())
 day= (V-B)/(A-B)
 if(day==int(day)):
     print(int(day))
