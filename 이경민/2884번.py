@@ -1,12 +1,17 @@
-#2884번
-H, M = map(int, input().split())
+#2525번
+A, B = map(int, input().split())
+C = int(input())
 
-if M < 45:  # 분단위가 45분보다 작을 때
-    if H == 0:  # 0 시이면
-        H = 23
-        M += 60
-    else:  # 0시가 아니면 (0시보다 크면)
-        H -= 1
-        M += 60
+hour = (B+C)//60
+min = (B+C)%60
 
-print(H, M - 45)
+if(B + C >= 60):
+  if(A+hour >= 24):
+    A = A - 24
+  A = A + hour
+  print(A, min)
+
+else:
+  if(A >= 24):
+    A = A - 24
+  print(A, B+C)
