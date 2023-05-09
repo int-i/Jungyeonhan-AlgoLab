@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2581", "2581\2581.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10809 알파벳찾기", "10809 알파벳찾기\10809 알파벳찾기.vcxproj", "{C36C48AC-5284-4702-B8A7-3987E845535A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2869", "2869\2869.vcxproj", "{3F45AC07-01FA-4252-AFB7-B26A4E1D1711}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{C36C48AC-5284-4702-B8A7-3987E845535A}.Release|x64.Build.0 = Release|x64
 		{C36C48AC-5284-4702-B8A7-3987E845535A}.Release|x86.ActiveCfg = Release|Win32
 		{C36C48AC-5284-4702-B8A7-3987E845535A}.Release|x86.Build.0 = Release|Win32
+		{3F45AC07-01FA-4252-AFB7-B26A4E1D1711}.Debug|x64.ActiveCfg = Debug|x64
+		{3F45AC07-01FA-4252-AFB7-B26A4E1D1711}.Debug|x64.Build.0 = Debug|x64
+		{3F45AC07-01FA-4252-AFB7-B26A4E1D1711}.Debug|x86.ActiveCfg = Debug|Win32
+		{3F45AC07-01FA-4252-AFB7-B26A4E1D1711}.Debug|x86.Build.0 = Debug|Win32
+		{3F45AC07-01FA-4252-AFB7-B26A4E1D1711}.Release|x64.ActiveCfg = Release|x64
+		{3F45AC07-01FA-4252-AFB7-B26A4E1D1711}.Release|x64.Build.0 = Release|x64
+		{3F45AC07-01FA-4252-AFB7-B26A4E1D1711}.Release|x86.ActiveCfg = Release|Win32
+		{3F45AC07-01FA-4252-AFB7-B26A4E1D1711}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
