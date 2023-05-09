@@ -9,6 +9,6 @@ for i in range(N):
              else:
                 result = max(result, arr[i] + arr[j] + arr[k])
 
-print(result)
+ print(result)
 
 
