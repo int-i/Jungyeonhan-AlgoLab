@@ -9,7 +9,7 @@ for i in range(v):
 def dfs(v):
     visited[v]=1
     for nx in graph[v]:
-        if visited[nx]==0:
+        if visited[nx] ==0:
             dfs(nx)
 
 dfs(1)
