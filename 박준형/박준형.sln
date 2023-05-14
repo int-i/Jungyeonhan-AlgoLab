@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "25176 그리디2", "25176\2
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11582 치킨topN", "11582\11582.vcxproj", "{C3FF81B9-9FB5-404F-B22A-EE39B9279364}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2606 바이러스", "2606 바이러스\2606 바이러스.vcxproj", "{D99B3435-779A-4D4F-A2AA-D85EA1CF1132}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{C3FF81B9-9FB5-404F-B22A-EE39B9279364}.Release|x64.Build.0 = Release|x64
 		{C3FF81B9-9FB5-404F-B22A-EE39B9279364}.Release|x86.ActiveCfg = Release|Win32
 		{C3FF81B9-9FB5-404F-B22A-EE39B9279364}.Release|x86.Build.0 = Release|Win32
+		{D99B3435-779A-4D4F-A2AA-D85EA1CF1132}.Debug|x64.ActiveCfg = Debug|x64
+		{D99B3435-779A-4D4F-A2AA-D85EA1CF1132}.Debug|x64.Build.0 = Debug|x64
+		{D99B3435-779A-4D4F-A2AA-D85EA1CF1132}.Debug|x86.ActiveCfg = Debug|Win32
+		{D99B3435-779A-4D4F-A2AA-D85EA1CF1132}.Debug|x86.Build.0 = Debug|Win32
+		{D99B3435-779A-4D4F-A2AA-D85EA1CF1132}.Release|x64.ActiveCfg = Release|x64
+		{D99B3435-779A-4D4F-A2AA-D85EA1CF1132}.Release|x64.Build.0 = Release|x64
+		{D99B3435-779A-4D4F-A2AA-D85EA1CF1132}.Release|x86.ActiveCfg = Release|Win32
+		{D99B3435-779A-4D4F-A2AA-D85EA1CF1132}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
