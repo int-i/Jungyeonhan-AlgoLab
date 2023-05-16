@@ -9,6 +9,6 @@ for i in range(0,14):
         summ[n]=int(summ[n])+int(summ[n+1])
         summ[n]=summ[n]%10
     summ[15-i]=0
-print(10*summ[0]+summ[1])
+print(str(summ[0])+str(summ[1]))
 
 
